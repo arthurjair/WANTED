@@ -61,6 +61,10 @@ body {
   font-family: arsenica;
   src: url(fonts/ArsenicaTrial-Extrabold.ttf);
 }
+@font-face {
+  font-family: beth;
+  src: url(fonts/Bethany-Elingston-BF64722e23853b3.otf);
+}
 
 
 .head{
@@ -287,26 +291,20 @@ a:link {
     border-left: transparent;
     border-top: transparent;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
-.checkpoint1{
-    padding: 50px;
-    border-left: transparent;
-    border-top: transparent;
-    border-style: solid;
-    border-width: 2px;
-}
+
 .collapsible{
     width: 100%;
     background-color: transparent;
     color: white;
     cursor: pointer;
-    padding: 18px;
+    padding: 8px;
      color: #000;
     text-align: left;
     outline: none;
-    font-size: 4vw;
-    font-family: "DM";
+    font-size: 5.8vw;
+    font-family: "beth";
     font-weight: bolder;
     transition: background-color 0.3s;
     border-top: transparent;
@@ -314,23 +312,14 @@ a:link {
     border-right: transparent;  
     border-bottom: transparent;
 }
-.collapsible2{
-  width: 100%;
-  background-color: transparent;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-   color: #000;
-  text-align: right;
-  outline: none;
-  font-size: 4vw;
-  font-family: "arsenica";
-  font-weight: bold;
-  transition: background-color 0.3s;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  border-bottom: transparent;
+.outcomes{
+  font-family: "beth";
+  font-size: 4.5vw;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-decoration-thickness: 4px;
+
 }
 
 .text3{
@@ -359,7 +348,7 @@ a:link {
   font-size: 1.5vw;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  background-color: #E0E0E0;
+  background-color: transparent;
 }
 h1{
     padding-left: 2vw;
