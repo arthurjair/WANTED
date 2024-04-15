@@ -76,7 +76,7 @@ body {
 .title1{
     background-color: #000;
     height: fit-content;
-    color: #C3C3C3;
+    color: #E4E4E4;
     text-align: center;
     font-size: 23vw;
     font-family: "Nashville";
@@ -92,12 +92,6 @@ body {
     font-weight: bold;
 }
 .Main{
-    display: grid;
-    grid-template-columns: repeat(250px, 1fr);
-    grid-template-rows: repeat(500px, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 30px;
-    margin-top: 50px;
     border-style: solid;
     border-width: 10px;;
 }
@@ -350,11 +344,15 @@ a:link {
   transition: max-height 0.3s ease-out;
   background-color: transparent;
 }
+.container{
+  padding-bottom: 50px;
+}
 h1{
     padding-left: 2vw;
-    font-size: 2.3vw;
-    font-family: "Adamina";
-    font-weight: bolder;
+    font-size: 6vw;
+    font-family: "beth";
+    
+
 }
 h3{
   font-family: "Dm";
@@ -363,22 +361,37 @@ h3{
 }
 .info{
   display: flex;
-  padding-right: 20px;
+  
+  
  
 }
 .leftcontainer{
-  border-style: solid;
+ padding-right: 70px;
+  padding-top: 70px;
 }
-p{
-    font-family: "Adamina";
-    padding-left: 2vw;
-    font-size: vw;
-    width: 35vw;
+.infotext{
+  font-family: "beth";
+  text-align: justify;
+  padding-left: 2vw;
+  padding-right: 20px;
+  font-size: 2.5vw;
+  width: 40vw;
+}
+
+.interactiveimg {
+  height: 62vw;
+   
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+  
 
 }
-.pizzeriaimg {
-    display: block;
-    width: 90%;
+
+.color {
+  filter: grayscale(0%);
 }
 
   
