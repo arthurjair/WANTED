@@ -1,0 +1,45 @@
+body{
+  background-image:url(images/background.png) ;
+  width: 98vw;
+  height: 100vh;
+  background-size: cover;
+}
+.container-top{
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.learning-outcomes{
+  background-color: gray;
+  margin-top: 90px;
+  width: 30vw;
+  height: 30vw;
+}
+.learning-outcomes h1{
+  text-align: center;
+}
+.learning-outcomes p{
+  text-align: center;
+}
+.project-infobox img{
+  height: auto;
+  width: 40vw;
+}
+.Project-info h1{
+  text-align: center;
+}
+.project-infobox h1 {
+position: absolute;
+margin-top: 50px;
+margin-left: 50px;
+}
+.project-infobox h2{
+  text-align: center;
+  margin-top: -40px;
+}
+.project-infobox { 
+max-height: fit-content;
+}
+
+  
