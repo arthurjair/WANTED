@@ -4,23 +4,37 @@ body{
   height: 100vh;
   background-size: cover;
 }
+@font-face {
+  font-family: Nashville;
+  src: url(fonts/Nashville-z8w0.ttf);
+}
 .container-top{
   position: relative;
-  top: 200px;
+  top: 140px;
   display: flex;
   justify-content: space-evenly;
 }
 .learning-outcomes{
-  background-color: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CEB27B;
   margin-top: 90px;
   width: 30vw;
   height: 30vw;
 }
 .learning-outcomes h1{
+  font-family: "Nashville";
+  letter-spacing: 1px;
+  font-size: 5vw;
   text-align: center;
+  color:#CEB27B ;
 }
 .learning-outcomes p{
+  font-family: "Nashville";
+  font-size: 2vw;
+  letter-spacing: 1px;
   text-align: center;
+  color: #CEB27B;
 }
 .project-infobox img{
   height: auto;
@@ -42,4 +56,54 @@ margin-left: 50px;
 max-height: fit-content;
 }
 
+.container-content {
+  display: flex;
   
+  padding-left: 10vw;
+  margin-top: 500px;
+  position: relative;
+  
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  max-width: 30vw;
+  height: fit-content;
+  
+  top: 0; /* Initially at the top of the container */
+
+}
+
+.right {
+  
+  max-width: 70vw; /* Adjusted width to accommodate remaining space */
+  margin-left: 50vw;
+  top: 0;
+
+}
+
+.image-container {
+  margin-bottom: 20px; /* Adjust as needed */
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 20px; /* Adjust this value based on your padding/margin needs */
+  width: 30vw; /* Match the max-width of the left div */
+  left: 10vw; /* Match the container's padding-left */
+}
+
+.stop {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+}
+.container-explenation{
+  margin-top: 50px; /* Ensure there's space between containers */
+  padding: 20px;
+ 
+  height: 400px; /* Example height */
+}
