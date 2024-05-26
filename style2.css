@@ -82,6 +82,7 @@ margin-top: -15vh;
 
 .left {
   flex: 1;
+  margin-left: 5vw;
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
@@ -93,12 +94,13 @@ margin-top: -15vh;
 }
 .left p{
   font-size: 1.2vw;
+  width: 30vw;
 }
 
 .right {
   flex:2;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
-  
+  margin-left: 15vw;
   top: 0;
 
 }
@@ -110,8 +112,6 @@ margin-top: -15vh;
 }
 .image-container2{
   margin-top: 50px;
-  margin-right: 2vw;
- 
   
 }
 
@@ -130,7 +130,7 @@ margin-top: -15vh;
 }
 .container-explenation{
   font-family: "Typewriter";
-  margin-top: 50px; /* Ensure there's space between containers */
+  margin-top: 65px; /* Ensure there's space between containers */
   padding: 20px;
   height: 400px; /* Example height */
   padding-left: 60px;
@@ -143,5 +143,28 @@ margin-top: -15vh;
   padding-left: 10vw;
   width: 60vw;
   font-size: 1.5vw;
+}
+.content{
+  font-family: "Typewriter";
+  display: flex;
+  padding-left: 10vw;
+  margin-top: px;
+  position: relative;
+  
+}
+.left2{
+  flex:1;
+  max-width: 70vw; /* Adjusted width to accommodate remaining space */
+  margin-left: vw;
+  top: 0;
+
+}
+.right2{
+  flex: 2;
+  margin-left: 5vw;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  align-self: flex-start; /* Make sure it starts at the top */
 }
 
