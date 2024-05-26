@@ -8,6 +8,10 @@ body{
   font-family: Nashville;
   src: url(fonts/Nashville-z8w0.ttf);
 }
+@font-face {
+  font-family: Typewriter;
+  src: url(fonts/atwriter.ttf);
+}
 .container-top{
   position: relative;
   top: 140px;
@@ -40,25 +44,36 @@ body{
   height: auto;
   width: 40vw;
 }
-.Project-info h1{
+.Project-info p{
   text-align: center;
+  color: #CEB27B;
+  font-family: "Nashville";
+  font-size: 5vw;
+  margin-bottom: 100px;
 }
-.project-infobox h1 {
+.project-infobox h2 {
 position: absolute;
-margin-top: 50px;
-margin-left: 50px;
+margin-top: 60px;
+margin-left: 60px;
+font-family: "Typewriter";
+font-size: 1.2vw;
+width: 30vw;
+text-align: left;
 }
-.project-infobox h2{
+.project-infobox h3{
+  font-family: "Typewriter";
   text-align: center;
-  margin-top: -40px;
+  margin-top: -20px;
+  font-size: 1.4vw;
 }
 .project-infobox { 
 max-height: fit-content;
+margin-top: -15vh;
 }
 
 .container-content {
+  font-family: "Typewriter";
   display: flex;
-  
   padding-left: 10vw;
   margin-top: 500px;
   position: relative;
@@ -67,24 +82,36 @@ max-height: fit-content;
 
 .left {
   flex: 1;
-  padding: 20px;
-  max-width: 30vw;
-  height: fit-content;
-  
-  top: 0; /* Initially at the top of the container */
-
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  align-self: flex-start; /* Make sure it starts at the top */
+ 
+}
+.left h1{
+  font-size: 2.5vw;
+}
+.left p{
+  font-size: 1.2vw;
 }
 
 .right {
-  
+  flex:2;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
-  margin-left: 50vw;
+  
   top: 0;
 
 }
 
 .image-container {
-  margin-bottom: 20px; /* Adjust as needed */
+  margin-top: 190px;
+ 
+  
+}
+.image-container2{
+  margin-top: 50px;
+  margin-right: 2vw;
+ 
   
 }
 
@@ -102,8 +129,19 @@ max-height: fit-content;
   left: 0;
 }
 .container-explenation{
+  font-family: "Typewriter";
   margin-top: 50px; /* Ensure there's space between containers */
   padding: 20px;
- 
   height: 400px; /* Example height */
+  padding-left: 60px;
 }
+.container-explenation h1{
+  padding-left: 10vw;
+  font-size: 2.5;
+}
+.container-explenation p{
+  padding-left: 10vw;
+  width: 60vw;
+  font-size: 1.5vw;
+}
+

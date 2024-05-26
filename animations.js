@@ -10,34 +10,33 @@ function handleScroll() {
       });
 }
 
-window.addEventListener('scroll', function() {
-  const leftDiv = document.querySelector('.left');
-  const rightDiv = document.querySelector('.right');
-  const container = document.querySelector('.container-content');
-  const scrollTop = window.scrollY || document.documentElement.scrollTop;
-  const containerRect = container.getBoundingClientRect();
-  const leftDivRect = leftDiv.getBoundingClientRect();
-  const rightDivRect = rightDiv.getBoundingClientRect();
 
-  // Calculate the top and bottom positions of the container relative to the document
-  const containerTop = containerRect.top + scrollTop;
-  const containerBottom = containerTop + containerRect.height;
 
-  // Calculate the bottom position of the right div relative to the document
-  const rightDivBottom = rightDivRect.bottom + scrollTop;
+document.addEventListener("DOMContentLoaded", function() {
+    const leftDiv = document.querySelector('.left');
+    const rightDiv = document.querySelector('.right');
+    const containerContent = document.querySelector('.container-content');
+    const initialLeftTop = leftDiv.getBoundingClientRect().top;
 
-  // Calculate the bottom position of the left div relative to the viewport
-  const leftDivBottom = leftDivRect.bottom + scrollTop;
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.scrollY;
+        const rightDivBottom = rightDiv.getBoundingClientRect().bottom + window.scrollY;
+        const containerBottom = containerContent.getBoundingClientRect().bottom + window.scrollY;
+        const leftDivHeight = leftDiv.offsetHeight;
 
-  // Check if the left div should be fixed or absolute based on scroll position
-  if (scrollTop >= containerTop && leftDivBottom < rightDivBottom) {
-    leftDiv.style.position = 'fixed';
-    leftDiv.style.top = '0'; // Stick at the top of the viewport
-  } else if (leftDivBottom >= rightDivBottom) {
-    leftDiv.style.position = 'absolute';
-    leftDiv.style.top = (rightDivBottom - containerTop - leftDivRect.height) + 'px'; // Stick at the bottom of the right div
-  } else {
-    leftDiv.style.position = 'absolute';
-    leftDiv.style.top = '0'; // Reset to initial positioning
-  }
+        if (scrollTop + initialLeftTop + leftDivHeight > containerBottom) {
+            leftDiv.style.top = (containerBottom - leftDivHeight - initialLeftTop) + 'px';
+        } else {
+            leftDiv.style.top = '0px';
+        }
+    });
 });
+
+
+
+
+
+
+
+
+
