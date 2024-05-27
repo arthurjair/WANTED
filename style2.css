@@ -12,6 +12,25 @@ body{
   font-family: Typewriter;
   src: url(fonts/atwriter.ttf);
 }
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+  background: #CEB27B; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E1251A; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 .container-top{
   position: relative;
   top: 140px;
@@ -39,6 +58,12 @@ body{
   letter-spacing: 1px;
   text-align: center;
   color: #CEB27B;
+}
+.project-infotitle{
+  padding-bottom: 100px;
+}
+.project-infobox{
+  padding-left: 50px;
 }
 .project-infobox img{
   height: auto;
@@ -79,6 +104,14 @@ margin-top: -15vh;
   position: relative;
   
 }
+.container-content2 {
+  font-family: "Typewriter";
+  display: flex;
+  padding-left: 10vw;
+  margin-top: 100px;
+  position: relative;
+  
+}
 
 .left {
   flex: 1;
@@ -98,6 +131,23 @@ margin-top: -15vh;
 }
 
 .right {
+  flex:2;
+  max-width: 70vw; /* Adjusted width to accommodate remaining space */
+  margin-left: 15vw;
+  top: 0;
+
+}
+.left3{
+  flex: 1;
+  margin-left: 5vw;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  align-self: flex-start; /* Make sure it starts at the top */
+ 
+}
+
+.right3{
   flex:2;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
   margin-left: 15vw;
@@ -161,11 +211,40 @@ margin-top: -15vh;
 }
 .right2{
   flex: 2;
-  margin-left: 5vw;
+  margin-left: 10vw;
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
   align-self: flex-start; /* Make sure it starts at the top */
 }
+.right2 p{
+  width: 35vw;
+  font-size: 1.2vw;
+}
+.right2 h1{
+  font-size: 2.5vw;
 
-
+}
+.end{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Typewriter";
+  font-size: 3vw;
+}
+footer{
+  font-family: "Typewriter";
+  display: flex;
+  justify-content: space-between;
+  font-size: 2vw;
+}
+.scroll-to-top{
+  cursor: pointer; /* Changes cursor to pointer */
+  padding-left: 100px;
+}
+.scroll-to-top:hover {
+  color: #E1251A;
+}
+.another-lo{
+  padding-right: 100px;
+}
