@@ -6,18 +6,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const containerContent = document.querySelector('.container-content');
   const initialLeftTop = leftDiv.getBoundingClientRect().top;
 
-  window.addEventListener('scroll', function () {
+  window.addEventListener('scroll', function() {
     const scrollTop = window.scrollY;
     const rightDivBottom = rightDiv.getBoundingClientRect().bottom + window.scrollY;
     const containerBottom = containerContent.getBoundingClientRect().bottom + window.scrollY;
     const leftDivHeight = leftDiv.offsetHeight;
 
     if (scrollTop + initialLeftTop + leftDivHeight > containerBottom) {
-      leftDiv.style.top = (containerBottom - leftDivHeight - initialLeftTop) + '0px';
+        leftDiv.style.top = (containerBottom - leftDivHeight - initialLeftTop) + 'px';
     } else {
-      leftDiv.style.top = "100px";
+        leftDiv.style.top = '100px';
     }
-  });
+});
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener('scroll', function () {
     const scrollTop = window.scrollY;
-    const right2DivBottom = left2Div.getBoundingClientRect().bottom + window.scrollY;
+    const right2DivBottom = right2Div.getBoundingClientRect().bottom + window.scrollY;
     const containerBottom = containerContent.getBoundingClientRect().bottom + window.scrollY;
-    const rightDivHeight = right2Div.offsetHeight;
+    const left2DivHeight = left2Div.offsetHeight;
 
-    if (scrollTop + initialrightTop + rightDivHeight > containerBottom) {
-      right2Div.style.top = (containerBottom - rightDivHeight - initialrightTop) + '0px';
+    if (scrollTop + initialrightTop + left2DivHeight > containerBottom) {
+      right2Div.style.top = (containerBottom - right2DivHeight - initialLeftTop) + '0px';
     } else {
       right2Div.style.top = '100px';
     }
@@ -66,7 +66,6 @@ function scrollToTop() {
     window.scrollTo(0, currentScroll - (currentScroll / 50)); // Adjust the divisor for speed
   }
 }
-
 
 
 
