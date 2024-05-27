@@ -52,17 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const left2Div = document.querySelector('.left2');
   const right2Div = document.querySelector('.right2');
-  const Content = document.querySelector('.content');
+  const containerContent = document.querySelector('.content');
   const initialrightTop = right2Div.getBoundingClientRect().top;
 
   window.addEventListener('scroll', function () {
     const scrollTop = window.scrollY;
     const right2DivBottom = right2Div.getBoundingClientRect().bottom + window.scrollY;
-    const containerBottom = content.getBoundingClientRect().bottom + window.scrollY;
-    const left2DivHeight = left2Div.offsetHeight;
+    const containerBottom = containerContent.getBoundingClientRect().bottom + window.scrollY;
+    const rightDivHeight = right2Div.offsetHeight;
 
-    if (scrollTop + initialLeftTop + left2DivHeight > containerBottom) {
-      right2Div.style.top = (containerBottom - right2DivHeight - initialLeftTop) + '0px';
+    if (scrollTop + initialrightTop + rightDivHeight > containerBottom) {
+      right2Div.style.top = (containerBottom - rightDivHeight - initialrightTop) + '0px';
     } else {
       right2Div.style.top = '100px';
     }
@@ -76,6 +76,33 @@ function scrollToTop() {
     window.scrollTo(0, currentScroll - (currentScroll / 50)); // Adjust the divisor for speed
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const projectItems = document.querySelectorAll('.project-item');
+
+  projectItems.forEach(item => {
+      item.addEventListener('mouseover', () => {
+          // Remove arrow from all items
+          projectItems.forEach(i => {
+              const arrow = i.querySelector('.arrow');
+              if (arrow) {
+                  arrow.remove();
+              }
+          });
+          // Add arrow to the hovered item
+          const arrow = document.createElement('div');
+          arrow.classList.add('arrow');
+          item.appendChild(arrow);
+      });
+
+      item.addEventListener('mouseout', () => {
+          const arrow = item.querySelector('.arrow');
+          if (arrow) {
+              arrow.remove();
+          }
+      });
+  });
+});
 
 
 
