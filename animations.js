@@ -1,14 +1,4 @@
 
-function handleScroll() {
-  images.forEach(image => {
-    const isVisible = isElementInViewport(image);
-    if (isVisible) {
-      image.classList.add("color");
-    } else {
-      image.classList.remove("color");
-    }
-  });
-}
 
 document.addEventListener("DOMContentLoaded", function () {
   const leftDiv = document.querySelector('.left');
@@ -57,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener('scroll', function () {
     const scrollTop = window.scrollY;
-    const right2DivBottom = right2Div.getBoundingClientRect().bottom + window.scrollY;
+    const right2DivBottom = left2Div.getBoundingClientRect().bottom + window.scrollY;
     const containerBottom = containerContent.getBoundingClientRect().bottom + window.scrollY;
     const rightDivHeight = right2Div.offsetHeight;
 
@@ -76,6 +66,7 @@ function scrollToTop() {
     window.scrollTo(0, currentScroll - (currentScroll / 50)); // Adjust the divisor for speed
   }
 }
+
 
 
 
