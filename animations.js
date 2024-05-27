@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const leftDivHeight = leftDiv.offsetHeight;
 
     if (scrollTop + initialLeftTop + leftDivHeight > containerBottom) {
-      leftDiv.style.top = (containerBottom - leftDivHeight - initialLeftTop) + '10px';
+      leftDiv.style.top = (containerBottom - leftDivHeight - initialLeftTop) + '0px';
     } else {
-      leftDiv.style.top = '100px';
+      leftDiv.style.top = "100px";
     }
   });
 });
