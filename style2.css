@@ -38,7 +38,8 @@ body{
   justify-content: space-evenly;
 }
 .learning-outcomes{
-  
+  max-height: 700px;
+  overflow-y: auto;
   border-style: solid;
   border-width: 2px;
   border-color: #CEB27B;
@@ -52,8 +53,59 @@ body{
   font-size: 5vw;
   text-align: center;
   color:#CEB27B ;
+ 
+}
+.learning-outcomes p{
+  font-family: "Typewriter";
+  letter-spacing: 1px;
+  font-size: .8vw;
+  text-align: center;
+  color:#811510 ;
+  margin-top: -30px;
+ 
+}
+.project-link{
+  text-decoration: none;
+}
+.project-item {
+  padding: 10px;
+  width: 20vw;
+  margin-left: 70px;
+  color: #CEB27B;
+  font-family: "Typewriter";
+  background-color: #E1251A;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 2s, font-size 0.4s;
+  position: relative; /* Ensure the arrow is positioned relative to the item */
+}
+.project-itemselec{
+  text-align: center;
+  text-decoration:underline;
+  color: #CEB27B;
+  font-family: "Typewriter";
+  font-size: 2.3vw;
 }
 
+
+.project-item:hover {
+  transform: scale(1.2);
+  font-size: 1.5vw;
+}
+
+.arrow {
+  display: none;
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.project-item:hover .arrow {
+  display: block;
+}
 
 
 .project-infotitle{
@@ -238,10 +290,12 @@ footer{
 .scroll-to-top{
   cursor: pointer; /* Changes cursor to pointer */
   padding-left: 100px;
+  margin-top: 20px;
 }
 .scroll-to-top:hover {
   color: #E1251A;
 }
 .another-lo{
   padding-right: 100px;
+  
 }

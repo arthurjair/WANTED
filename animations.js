@@ -1,6 +1,5 @@
 
-
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded"), function () {
   const leftDiv = document.querySelector('.left');
   const rightDiv = document.querySelector('.right');
   const containerContent = document.querySelector('.container-content');
@@ -18,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         leftDiv.style.top = '100px';
     }
 });
-});
+};
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const left3Div = document.querySelector('.left3');
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const left2DivHeight = left2Div.offsetHeight;
 
     if (scrollTop + initialrightTop + left2DivHeight > containerBottom) {
-      right2Div.style.top = (containerBottom - right2DivHeight - initialLeftTop) + '0px';
+      right2Div.style.top = (containerBottom - left2DivHeight- initialLeftTop) + '0px';
     } else {
       right2Div.style.top = '100px';
     }
@@ -66,6 +66,8 @@ function scrollToTop() {
     window.scrollTo(0, currentScroll - (currentScroll / 50)); // Adjust the divisor for speed
   }
 }
+
+
 
 
 
