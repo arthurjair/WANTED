@@ -1,15 +1,17 @@
 body {
-    background-color:whitesmoke;
+    background-image: url(images/backgroundindex.png);
+    width: 98vw;
+    height: 100vh;
+    background-size: cover;
 
 }  
-.content2{
-  background-image: url(images/background.jpg);
-  scale: 0.8;
-  margin-top: -17vh;
-  border-style: solid;
-  border-color: #000;
-  padding: 30px;
-
+@font-face {
+  font-family: Nashville;
+  src: url(fonts/Nashville-z8w0.ttf);
+}
+@font-face {
+  font-family: Typewriter;
+  src: url(fonts/atwriter.ttf);
 }
 /* width */
 ::-webkit-scrollbar {
@@ -18,273 +20,44 @@ body {
   
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #CEB27B; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #E1251A; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-
-
-
-@font-face {
- font-family: HennyPenny;
- src: url(fonts/HennyPenny-Regular.ttf);
+.container-top{
+  margin-left: 4vw;
+  margin-bottom: 400px;
 }
-@font-face {
-    font-family: Domine;
-    src: url(fonts/Domine-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: Adamina;
-    src: url(fonts/Adamina-Regular.ttf);
-}
-@font-face {
-  font-family: Dm;
-  src: url(fonts/DMSerifText-Regular.ttf);
-}
-
-.head{
-  
-  font-family: "Nashville";
-  text-align: center;
-  font-size: 50px;
-}
-.title1{
-  background-color: #000;
-  height: fit-content;
-  color: #E4E4E4;
-  text-align: center;
-  font-size: 23vw;
-  font-family: "Nashville";
- 
-}
-.navbar{
-  width: 100%;
-  display: flex;
-  justify-content:space-evenly;
-  align-items: center;
-  font-size: 3vw;
-  font-family: 'Dm';
-  margin-top: 70px;
+.nav p{
+font-family: "Nashville";
+color: #CEB27B;
+font-size: 2.5vw;
 
 }
-
-.Main{
-
-  margin-top: 10vh;
-  border-style: solid;
-  border-width: 10px;;
+.Projects h1{
+  margin-left: 900px
   
 }
-
-.creativedev{
-  font-family: "Nashville";
-  text-align: center;
-  font-size: 11vw;
-  font-weight: 400;
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 20px;
+.Projects{
+  margin-bottom: 600px;
 }
-.from{
-  font-family: "Nashville";
-  font-size: 10.5vw;
-  text-align: center;
- 
-  width: 100%;
- 
- 
+.About-me{
+  margin-left: 4vw;
+  margin-bottom: 300px;
 }
-.aruba{
-  font-family: "Nashville";
-  font-size: 11vw;
-  text-align: center;
-  padding-top: 0px;
-  width: 100%;
-  
-}
-.text10{
-  text-align: justify;
-  font-family: "beth";
-  font-size: 2vw;
-  padding-left: 70px;
-  width: 25vw;
-  margin-top: -330px;
-  padding-top: 10px;
-
-}
-.text2{ 
-  font-family: "beth";
-  font-size: 2vw;
-  width: 20vw;
-  right: 20vw;
-
-}
-.text3{
-  font-family: "Domine";
-  font-size: 2.2vw;
-  width: 325px; 
- 
-}
-.text4{
-  font-family: "Domine";
- 
-  font-size: 4vw;
-  width:300px; 
-  padding-top: 30px;
-  margin-top: -20px;
-  margin-left: -3vw;
-}
-.wantedpic img{
-  width: 20vw;
-  
-}
-.wantedpic{
-  background-color: aqua;
-}
-.name{
-  
-  text-align: center;
-  font-family: "Dm";
-  font-size: 4vw;
+.Contact h1{
   margin: 0 auto;
-  margin-left: -23vw;
-  width: 40vw;
-}
-.wanted{
-
   text-align: center;
-  font-size: 8vw;
-  font-family: "Dm";
-  margin-top: -80px;
-  margin-left: -25vw;
-}
-.dead{
-  
-  text-align: center;
-  font-family: "Adamina";
-  font-size: 4vw;
-}
-.questions{
-  grid-area: 8 / 1 / 9 / 4;
-  font-size: 10vw;
-  border-style: solid;
-  border-color: #000;
-  margin-top: 50px;
-  padding-top: 20px;
   
 }
-button {
-  
-  border-radius: 4px;
-  background-color: #00000000;
-  border-style: solid;
-  border-radius: 100%;
-  color: #000000;
-  text-align: center;
-  font-size: 60px;
-  padding: 16px;
-  width: 290px;
-  height: 240px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 36px;
-  font-family: "Adamina";
-}
-.button{
-  grid-area: 4 / 3 / 5 / 3;
-  margin-top: -10vh;
-  margin-left: -3vw;
 
-}
-button{
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-button:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;  
-  top: 9vh;
-  right: -80px;
-  transition: 0.5s;
-}
 
-button:hover{
-  padding-right: 24px;
-  padding-left:8px;
-}
-
-button:hover:after {
-  opacity: 1;
-  right: 10px;
-}
-a:link {
-  color: #000;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: #000;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: #E0E0E0;
-  background-color:black;
-}
-a.no:link {
-  color: #000;
-  background-color: transparent;
-  text-decoration: none;
-}
-a.no:visited {
-  color: #000;
-  background-color: transparent;
-  text-decoration: none;
-}
-@media only screen and (max-width: 1000px) {
-  body {
-    background-color: lightblue;
-  }
-  .portfolio{
-    font-size: 9vw;
-    margin-top: -2vh;
-  }
-  .line3{
-    margin-top: -6vh;
-  }
-  .Main{
-    margin-top: 3vh;
-  }
-  .creativedev{
-    width: 100%;
-    font-size: 8vw;
-    justify-content: center;
-    margin-right: 55vw;
-  }
-  .from{
-    font-size: 7.5vw;
-    margin-right: 40vw;
-  }
-  .aruba{
-    font-size: 7vw;
-    margin-top: 2vh;
-    background-color: aqua;
-  }
-  .title{
-    width: 95%;
-    background-color: aquamarine;
-    
-  }
-} 
