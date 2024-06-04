@@ -59,6 +59,13 @@ body {
     padding: 20px;
     text-align: center;
     font-size: 3vw;
+   
+ }
+ .Projects a{
+    text-decoration: none;
+ }
+ .Projects a:visited{
+    text-decoration: none;color: #000;
  }
 .Projects p:hover{
     color: #E1251A;

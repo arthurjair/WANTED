@@ -35,7 +35,16 @@ body {
 .container-top{
   margin-left: 4vw;
   margin-bottom: 400px;
+ 
 }
+.container-top a{
+  text-decoration: none;
+}
+.container-top p:hover{
+  text-decoration: underline;
+} .container-top p{
+  width: 10vw;
+} 
 .nav p{
 font-family: "Nashville";
 color: #CEB27B;
