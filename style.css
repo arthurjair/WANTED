@@ -49,6 +49,9 @@ font-size: 2.5vw;
 .Projects{
   margin-bottom: 600px;
 }
+.Projects:hover{
+ cursor: pointer;
+}
 .About-me{
   margin-left: 4vw;
   margin-bottom: 300px;

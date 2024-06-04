@@ -43,9 +43,10 @@ body{
   border-style: solid;
   border-width: 2px;
   border-color: #CEB27B;
-  margin-top: 120px;
+  margin-top: 150px;
   width: 30vw;
   height: 30vw;
+  margin-left: 5vw;
 }
 .learning-outcomes h1{
   font-family: "Nashville";
@@ -108,11 +109,9 @@ body{
 }
 
 
-.Project-info{
-  margin-top: 50px;
-}
 .project-infobox{
   padding-left: 50px;
+  
 }
 .project-infobox img{
   height: auto;
@@ -130,17 +129,16 @@ position: absolute;
 margin-top: 60px;
 margin-left: 170px;
 font-family: "Typewriter";
-font-size: 1.2vw;
+font-size: 2vw;
 width: 30vw;
+height:20vw;
 text-align: left;
+padding: 20px;
+background-color: #CEB27B;
+border-radius: 20px;
 
 }
-.project-infobox h3{
-  font-family: "Typewriter";
-  text-align: center;
-  margin-top: -20px;
-  font-size: 1.4vw;
-}
+
 .project-infobox{ 
   text-align: center;
   max-height: fit-content;
@@ -148,12 +146,10 @@ text-align: left;
 }
 .project-infobox{ 
   text-align: center;
-  max-height: fit-content;
+  
 
 }
-#project-info-background{
-  width: 40vw;
-}
+
 
 .container-content {
   font-family: "Typewriter";
@@ -161,6 +157,7 @@ text-align: left;
   padding-left: 10vw;
   margin-top: 500px;
   position: relative;
+  padding-bottom: 10vw;
   
 }
 .container-content2 {
@@ -185,8 +182,8 @@ text-align: left;
   font-size: 2.5vw;
 }
 .left p{
-  font-size: 1.2vw;
-  width: 30vw;
+  font-size: 1.4vw;
+  width: 35vw;
 }
 
 .right {
@@ -195,6 +192,11 @@ text-align: left;
   margin-left: 15vw;
   top: 0;
 
+}
+.right p{
+  font-size: 1.5vw;
+  width: 20vw;
+  text-align: center;
 }
 .left3{
   flex: 1;
@@ -237,22 +239,7 @@ text-align: left;
   bottom: 0;
   left: 0;
 }
-.container-explenation{
-  font-family: "Typewriter";
-  margin-top: 65px; /* Ensure there's space between containers */
-  padding: 20px;
-  height: 400px; /* Example height */
-  padding-left: 60px;
-}
-.container-explenation h1{
-  padding-left: 10vw;
-  font-size: 2.5;
-}
-.container-explenation p{
-  padding-left: 10vw;
-  width: 60vw;
-  font-size: 1.5vw;
-}
+
 .content{
   font-family: "Typewriter";
   display: flex;
@@ -264,9 +251,14 @@ text-align: left;
 .left2{
   flex:1;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
-  margin-left: vw;
+  margin-left: 2vw;
   top: 0;
 
+}
+.left2 p{
+  width: 40vw;
+  text-align: center;
+  
 }
 .right2{
   flex: 2;
@@ -311,4 +303,11 @@ footer{
 }
 #nathalie-silverentand{
   width: 60vw;
+}
+#moodboardimg{
+  width: 20vw;
+  
+}
+.project-infotitle{
+  margin-top: 40px;
 }
