@@ -75,6 +75,7 @@ body{
   color: #CEB27B;
   font-family: "Typewriter";
   background-color: #E1251A;
+  font-size: 1.3vw;
   text-align: center;
   cursor: pointer;
   transition: transform 2s, font-size 0.4s;
@@ -85,7 +86,8 @@ body{
   text-decoration:underline;
   color: #CEB27B;
   font-family: "Typewriter";
-  font-size: 2.3vw;
+  font-size: 2.4vw;
+  padding-bottom: 10px;
 }
 
 
@@ -109,14 +111,8 @@ body{
 }
 
 
-.project-infobox{
-  padding-left: 50px;
-  
-}
-.project-infobox img{
-  height: auto;
-  width: 40vw;
-}
+
+
 .Project-info p{
   text-align: center;
   color: #CEB27B;
@@ -130,8 +126,8 @@ margin-top: 60px;
 margin-left: 170px;
 font-family: "Typewriter";
 font-size: 2vw;
-width: 30vw;
-height:20vw;
+width: 35vw;
+height:fit-content;
 text-align: left;
 padding: 20px;
 background-color: #CEB27B;
@@ -244,8 +240,8 @@ border-radius: 20px;
   font-family: "Typewriter";
   display: flex;
   padding-left: 10vw;
-  margin-top: px;
   position: relative;
+  margin-bottom: 250px;
   
 }
 .left2{
@@ -310,4 +306,27 @@ footer{
 }
 .project-infotitle{
   margin-top: 40px;
+}
+#group-mm{
+
+margin-top: 10px;
+display: flex;
+align-items: flex-start;
+font-family: "Typewriter";
+
+}
+#leftgroup{
+  background-color: #CEB27B;
+  margin-left: 10vw;
+  
+}
+#leftgroup h1{
+  font-size: 2.5vw;
+}
+#leftgroup p{
+  font-size: 1.5vw;
+  width: 40vw;
+}
+#groupmmimg{
+  padding-left: 30px;
 }
