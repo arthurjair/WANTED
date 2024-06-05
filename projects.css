@@ -38,7 +38,10 @@ body {
     font-family: "Typewriter";
     font-size: 1.2vw;
    
-   
+  }
+  .nav a{
+    color: #000;
+    text-decoration: none;
   }
   .container-top h1{
     text-align: center;
