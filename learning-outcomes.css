@@ -37,8 +37,6 @@ body{
   justify-content: right;
   font-size: 1.4vw;
   color: #CEB27B;
-  
-  
 }
 .nav a{
   text-decoration: none;
@@ -50,7 +48,7 @@ body{
 
 .container-top{
   position: relative;
-  top: 100px;
+  top: 30px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -282,7 +280,15 @@ color: #CEB27B;
   padding-left: 10vw;
   position: relative;
   margin-bottom: 250px;
+
   
+}
+.content a{
+ 
+  color: black;
+}
+.content p{
+ margin-left: -40px;
 }
 .left2{
   flex:1;
@@ -325,19 +331,21 @@ footer{
   display: flex;
   justify-content: space-between;
   font-size: 2vw;
+  padding: 10px;
+  padding-bottom: 40px;
+
+}
+footer a{
+  color: black;
 }
 .scroll-to-top{
   cursor: pointer; /* Changes cursor to pointer */
-  padding-left: 100px;
-  margin-top: 20px;
+ 
 }
 .scroll-to-top:hover {
   color: #E1251A;
 }
-.another-lo{
-  padding-right: 100px;
-  
-}
+
 #nathalie-silverentand{
   width: 62vw;
 }
