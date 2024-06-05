@@ -67,11 +67,14 @@ body {
  .Projects a{
     text-decoration: none;
     color: #000;
+
  }
 
  .Projects a:visited{
-    text-decoration: none;color: #000;
+    text-decoration: none;
+    color: #000;
  }
+ 
 .Projects p:hover{
     color: #E1251A;
     cursor:pointer;

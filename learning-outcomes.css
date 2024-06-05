@@ -294,7 +294,7 @@ color: #CEB27B;
   flex:1;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
   
-  top: 0;
+  margin-top: 50px;
   text-align: center;
 
 }
@@ -379,6 +379,15 @@ font-family: "Typewriter";
 }
 #groupmmimg{
   padding-left: 30px;
+  display: flex;
+ flex-direction: column;
+ text-align: center;
+ 
+}
+#groupmmimg a{
+  color: black;
+  padding: 20px;
+
 }
 .last-container{
   font-family: "Typewriter";
@@ -409,4 +418,7 @@ font-family: "Typewriter";
 }
 .image-container3{
   background-color: #CEB27B;
+}
+#explorebredavideo{
+  width: 40vw;
 }
