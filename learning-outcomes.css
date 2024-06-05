@@ -31,9 +31,26 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.nav{
+  display: flex;
+  font-family: "Typewriter";
+  justify-content: right;
+  font-size: 1.4vw;
+  color: #CEB27B;
+  
+  
+}
+.nav a{
+  text-decoration: none;
+}
+.nav a:visited{
+  color: #CEB27B;
+  text-decoration: none;
+}
+
 .container-top{
   position: relative;
-  top: 140px;
+  top: 100px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -111,7 +128,9 @@ body{
 }
 
 
-
+.project-infotitle{
+  top:50px;
+}
 
 .Project-info p{
   text-align: center;
@@ -123,15 +142,17 @@ body{
 .project-infobox h2 {
 position: absolute;
 margin-top: 60px;
-margin-left: 170px;
+margin-left: 50px;
+width: 50vw;
 font-family: "Typewriter";
-font-size: 2vw;
-width: 35vw;
-height:fit-content;
+font-size: 2.5vw;
+
 text-align: left;
 padding: 20px;
-background-color: #CEB27B;
-border-radius: 20px;
+padding-top: 40px;
+
+color: #CEB27B;
+
 
 }
 
@@ -190,18 +211,26 @@ border-radius: 20px;
 
 }
 .right p{
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   width: 20vw;
   text-align: center;
 }
 .left3{
   flex: 1;
-  margin-left: 5vw;
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
   align-self: flex-start; /* Make sure it starts at the top */
+  background-color: #CEB27B;
+  
  
+}
+.left3 p{
+  font-size: 1.4vw;
+  
+}
+.left3 h1{
+  font-size: 2.5vw;
 }
 
 .right3{
@@ -209,8 +238,11 @@ border-radius: 20px;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
   margin-left: 15vw;
   top: 0;
+  text-align: center;
+
 
 }
+
 
 .image-container {
   margin-top: 190px;
@@ -263,10 +295,11 @@ border-radius: 20px;
   position: sticky;
   top: 0;
   align-self: flex-start; /* Make sure it starts at the top */
+  background-color: #CEB27B;
 }
 .right2 p{
   width: 35vw;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
 }
 .right2 h1{
   font-size: 2.5vw;
@@ -298,7 +331,7 @@ footer{
   
 }
 #nathalie-silverentand{
-  width: 60vw;
+  width: 62vw;
 }
 #moodboardimg{
   width: 20vw;
@@ -329,4 +362,20 @@ font-family: "Typewriter";
 }
 #groupmmimg{
   padding-left: 30px;
+}
+.last-container{
+  font-family: "Typewriter";
+  width: 30vw;
+  margin-left: 10vw;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: #CEB27B;
+}
+.last-container h1{
+  text-align: center;
+  font-size: 2.5vw;
+}
+.last-container p{
+  font-size: 1.4vw;
+  text-align: center;
 }
