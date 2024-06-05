@@ -293,8 +293,9 @@ color: #CEB27B;
 .left2{
   flex:1;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
-  margin-left: 2vw;
+  
   top: 0;
+  text-align: center;
 
 }
 .left2 p{
@@ -397,4 +398,15 @@ font-family: "Typewriter";
 }
 #IMPimg{
   width: 35vw;
+}
+#image-container3{
+  width: 40vw;
+}
+#image-martijn{
+  width: 30vw;
+  height: 60vw;
+  padding-bottom: 20px;
+}
+.image-container3{
+  background-color: #CEB27B;
 }
