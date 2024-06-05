@@ -98,6 +98,14 @@ body{
   transition: transform 2s, font-size 0.4s;
   position: relative; /* Ensure the arrow is positioned relative to the item */
 }
+.project-item a{
+  text-decoration: none;
+  color: #CEB27B;
+}
+.project-item a:visited{
+  text-decoration: none;
+  color: #CEB27B;
+}
 .project-itemselec{
   text-align: center;
   text-decoration:underline;
@@ -378,4 +386,7 @@ font-family: "Typewriter";
 .last-container p{
   font-size: 1.4vw;
   text-align: center;
+}
+#IMPimg{
+  width: 35vw;
 }
