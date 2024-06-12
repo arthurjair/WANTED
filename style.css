@@ -3,7 +3,7 @@ body {
     width: 98vw;
     height: 100vh;
     background-size: cover;
-   `
+   
 
 }  
 @font-face {
@@ -35,7 +35,7 @@ body {
 }
 .container-top{
   margin-left: 4vw;
-  margin-bottom: 400px;
+  margin-bottom: 30vw;
  
 }
 .container-top a{
@@ -59,7 +59,7 @@ font-size: 2.3vw;
 .LO{
   display: flex;
   justify-content: end;
- margin-bottom: 35vw;
+ margin-bottom: 30vw;
 }
 
 .Projects:hover{
@@ -88,14 +88,77 @@ font-size: 2.3vw;
   .LO{
     display: flex;
     justify-content: end;
-   margin-bottom: 50vw;
+   margin-bottom: 35vw;
   }
  .About-me{
+  margin-bottom: 20vw;
   
-
  }
  
 }
+@media screen and (max-width: 768px) {
 
+  body {
+   
+    background-repeat: no-repeat;
+  }
+  #indeximg{
+    height: auto;
+    width: 100vw;
+  }
+  .LO{
+    display: flex;
+    justify-content: end;
+   margin-bottom: 25vw;
+  }
+ .About-me{
+  margin-bottom: 20vw;
+  
+ }
+ 
+}
+@media screen and (max-width: 426px) {
+
+  body {
+    background-size: cover; /* Or adjust as needed */
+  }
+  #indeximg{
+    height: auto;
+    width: 100vw;
+  }
+  .LO{
+    display: flex;
+    justify-content: end;
+   margin-bottom: 20vw;
+  }
+ .About-me{
+  margin-bottom: 20vw;
+  
+ }
+ 
+}
+@media screen and (max-width: 321px) {
+
+  body {
+    background-size: contain; /* Or adjust as needed */
+  }
+  .container-top{
+    margin-bottom: 10vw;
+  }
+  #indeximg{
+    height: auto;
+    width: 100vw;
+  }
+  .LO{
+    display: flex;
+    justify-content: end;
+   margin-bottom: 30vw;
+  }
+ .About-me{
+  margin-bottom: 20vw;
+  
+ }
+ 
+}
 
 
