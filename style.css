@@ -3,6 +3,7 @@ body {
     width: 98vw;
     height: 100vh;
     background-size: cover;
+   `
 
 }  
 @font-face {
@@ -45,19 +46,22 @@ body {
 } .container-top p{
   width: 10vw;
 } 
+#titleimg{
+  width: 40vw;
+}
 .nav p{
 font-family: "Nashville";
 color: #CEB27B;
-font-size: 2.5vw;
+font-size: 2.3vw;
 
 }
-.Projects h1{
-  margin-left: 900px
-  
+
+.LO{
+  display: flex;
+  justify-content: end;
+ margin-bottom: 35vw;
 }
-.Projects{
-  margin-bottom: 600px;
-}
+
 .Projects:hover{
  cursor: pointer;
 }
@@ -69,6 +73,28 @@ font-size: 2.5vw;
   margin: 0 auto;
   text-align: center;
   
+}
+#indeximg{
+  height: auto;
+  max-width: 40vw;
+}
+
+
+@media screen and (min-width: 2560px) {
+  #indeximg{
+    height: auto;
+    width: 70vw;
+  }
+  .LO{
+    display: flex;
+    justify-content: end;
+   margin-bottom: 50vw;
+  }
+ .About-me{
+  
+
+ }
+ 
 }
 
 
