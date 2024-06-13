@@ -87,3 +87,10 @@ body {
 #learningoutcomesimg{
     width: 40vw;
 }
+@media screen and (max-width: 426px) {
+
+  body{
+    background-size: contain;
+  }
+ 
+}

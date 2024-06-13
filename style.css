@@ -1,6 +1,7 @@
 body {
     background-image: url(images/backgroundindex.png);
-    width: 98vw;
+
+    width: 99%;
     height: 100vh;
     background-size: cover;
    
@@ -122,6 +123,10 @@ font-size: 2.3vw;
   body {
     background-size: cover; /* Or adjust as needed */
   }
+  .nav{
+    display: flex;
+    margin-top: -5vw;
+  }
   #indeximg{
     height: auto;
     width: 100vw;
@@ -129,7 +134,7 @@ font-size: 2.3vw;
   .LO{
     display: flex;
     justify-content: end;
-   margin-bottom: 20vw;
+   margin-bottom: 25vw;
   }
  .About-me{
   margin-bottom: 20vw;
