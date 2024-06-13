@@ -405,6 +405,9 @@ font-family: "Typewriter";
 #image-container3{
   width: 40vw;
 }
+#octocookedimg{
+  width: 30vw;
+}
 #image-martijn{
   width: 30vw;
   height: 60vw;
@@ -495,6 +498,9 @@ font-family: "Typewriter";
   }
   .container-content{
     margin-top: 25vw;
+  }
+  .project-infotitle{
+    margin-top: 20px;
   }
  }
  @media screen and (max-width: 321px) {
