@@ -172,7 +172,7 @@ color: #CEB27B;
   font-family: "Typewriter";
   display: flex;
   padding-left: 10vw;
-  margin-top: 500px;
+  margin-top: 30vw;
   position: relative;
   padding-bottom: 10vw;
   
@@ -435,8 +435,75 @@ font-family: "Typewriter";
   width: 20vw;
 }
 
-@media screen and (min-width: 2560px) {
- 
- 
+@media screen and (max-width: 2560px) {
+ .container-top{
+  top: 10vw;
+ }
+ .container-content{
+  margin-top: 35vw;
+ }
+ .end{
+  padding-bottom: 5vw;
+ }
 }
+@media screen and (max-width: 1024px) {
+  .content{
+    margin-bottom: 0px;
+  }
+ }
+ @media screen and (max-width: 768px) {
+  .content{
+    margin-bottom: 0px;
+  }
+  .container-top{
+    top: 0px;
+
+    
+  }
+  .container-content{
+    margin-top: 15vw;
+  }
+
+  .last-container{
+    margin-top: 10vw;
+  }
+ }
+ @media screen and (max-width: 426px) {
+  body{
+    background-repeat: no-repeat;
+  }
+  .learning-outcomes{
+    margin-top: 10vw;
+  }
+  .project-infobox h2{
+    margin-left: 0px;
+  }
+  .container-top{
+    top: 0vw;
+  }
+  .project-item{
+    padding-top: 10px;
+  }
+  .content{
+    margin-bottom: 15vw;
+  }
+  .content p{
+    margin-left: 0px;
+  }
+  .last-container{
+    margin-top: 30vw;
+  }
+  .container-content{
+    margin-top: 25vw;
+  }
+ }
+ @media screen and (max-width: 321px) {
+  #group-mm{
+    display: block
+  }
+  .project-infotitle{
+    margin-top: 0px;
+  }
+
+ }
  
