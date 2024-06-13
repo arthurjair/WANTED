@@ -60,7 +60,7 @@ font-size: 2.3vw;
 .LO{
   display: flex;
   justify-content: end;
- margin-bottom: 30vw;
+ margin-bottom: 35vw;
 }
 
 .Projects:hover{
@@ -68,7 +68,7 @@ font-size: 2.3vw;
 }
 .About-me{
   margin-left: 4vw;
-  margin-bottom: 300px;
+  margin-bottom: 20vw;
 }
 .Contact h1{
   margin: 0 auto;
@@ -126,6 +126,7 @@ font-size: 2.3vw;
   .nav{
     display: flex;
     margin-top: -5vw;
+    font-size: 5vw;
   }
   #indeximg{
     height: auto;
