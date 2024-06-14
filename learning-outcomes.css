@@ -156,6 +156,14 @@ text-align: left;
 padding: 20px;
 color: #CEB27B;
 }
+.project-infobox2 h2 {
+  position: absolute;
+  width: 50vw;
+  font-family: "Typewriter";
+  font-size: 2.5vw;
+  text-align: left;
+  color: #CEB27B;
+  }
 
 .project-infobox{ 
   text-align: center;
@@ -211,10 +219,30 @@ color: #CEB27B;
   top: 0;
 
 }
+#ps li,p{
+  font-size: 1.4vw;
+  
+
+}
+#ps h1{
+  font-size: 2vw;
+}
+
+#ps-right h1{
+  font-size: 2vw;
+}
+#ps-right li,p{
+  font-size: 1.4vw;
+  
+}
+#ps-right{
+  margin-top: 7vw;
+  background-color: #CEB27B;
+}
 .right p{
   font-size: 1.4vw;
   width: 20vw;
-  text-align: center;
+ 
 }
 .left3{
   flex: 1;
@@ -279,7 +307,7 @@ color: #CEB27B;
   
 }
 .content a{
- 
+ font-size: 1.4vw;
   color: black;
 }
 .content p{
@@ -377,10 +405,14 @@ font-family: "Typewriter";
   padding-left: 30px;
   display: flex;
  flex-direction: column;
- text-align: center;
+ 
  
 }
+#psimg{
+  width: 20vw;
+}
 #groupmmimg a{
+  font-size: 1.4vw;
   color: black;
   padding: 20px;
 
@@ -439,10 +471,13 @@ font-family: "Typewriter";
 #gengarimg{
   width: 20vw;
 }
+#project-img{
+  width: 50vw;
+}
 
 @media screen and (max-width: 2560px) {
  .container-top{
-  top: 10vw;
+  top: 5vw;
  }
  .container-content{
   margin-top: 35vw;
