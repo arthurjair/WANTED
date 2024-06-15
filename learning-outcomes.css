@@ -215,7 +215,7 @@ color: #CEB27B;
 .right {
   flex:2;
   max-width: 70vw; /* Adjusted width to accommodate remaining space */
-  margin-left: 15vw;
+  margin-left: 10vw;
   top: 0;
 
 }
@@ -298,6 +298,7 @@ color: #CEB27B;
 }
 
 .content{
+  background-color: #CEB27B;
   font-family: "Typewriter";
   display: flex;
   padding-left: 10vw;
@@ -445,6 +446,12 @@ font-family: "Typewriter";
 }
 #image-container3{
   width: 40vw;
+ 
+}
+#designborder2{
+  width: 40vw;
+  border-style: solid;
+  border-color: black;
 }
 #octocookedimg{
   width: 30vw;
@@ -462,6 +469,7 @@ font-family: "Typewriter";
 }
 #posterimg{
   width: 40vw;
+
 }
 #myposters{
   width: 30vw;
@@ -497,6 +505,9 @@ font-family: "Typewriter";
 }
 #feedbackimg{
   width: 50vw;
+}
+#firstdesignimg{
+  width: 32vw;
 }
 @media screen and (max-width: 2560px) {
  .container-top{
