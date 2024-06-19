@@ -1,0 +1,151 @@
+.body{
+    background-color: purple;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    
+}
+.ear{
+    background-color: purple;
+    border-radius: 80%;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 670px;
+    top: 270px;
+    transform: rotate(55deg);
+}
+.ear2{
+    background-color: purple;
+    border-radius: 80%;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 820px;
+    top: 270px;
+    transform: rotate(-55deg);
+}
+
+.eye{
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 50px;
+    left: 740px;
+    top: 340px;
+    z-index: 1;
+
+}
+.eye2{
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 50px;
+    left: 830px;
+    top: 340px;
+    z-index: 1;
+
+}
+.dot{
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 10px;
+    left: 830px;
+    top: 360px;
+    z-index: 1;
+}
+.dot2{
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    rotate: 90deg;
+    width: 30px;
+    height: 10px;
+    left: 740px;
+    top: 360px;
+    z-index: 1;
+
+}
+
+
+.arm{
+    background-color: purple;
+    border-radius: 200px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 620px;
+    top: 380px;
+    transform: rotate(-45deg);
+    
+    
+}
+.arm2{
+
+    background-color: purple;
+    width: 100px;
+    border-radius: 200px;
+    height: 50px;
+    position: absolute;
+    left: 870px;
+    top: 380px;
+    transform: rotate(45deg);
+    
+    
+}
+.mouth{
+    border-style: solid;
+    border: 3px;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    left: 760px;
+    top: 420px;
+    z-index: 1;
+}
+.leg{
+    background-color: purple;
+    border-radius: 200px;
+    transform: rotate(50deg);
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    left: 840px;
+    top: 460px;
+
+}
+.leg2{
+    background-color: purple;
+    border-radius: 200px;
+    transform: rotate(-50deg);
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    left: 680px;
+    top: 460px;
+
+}
+@media screen  {
+    @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+        .body,.arm,.arm2,.eye,.eye2,.leg,.leg2,.mouth,.dot,.dot2{
+            width: 200px;
+            height: 500px;
+        }
+      }
+      
+    
+}
