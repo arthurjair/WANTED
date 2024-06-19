@@ -32,11 +32,10 @@ body {
     background: #555; 
   }
   .nav{
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-between;
+    text-align: center;
     font-family: "Typewriter";
     font-size: 1.8vw;
+    margin-bottom: 5vw;
    
   }
   .nav a{
