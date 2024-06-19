@@ -509,6 +509,10 @@ font-family: "Typewriter";
 #firstdesignimg{
   width: 32vw;
 }
+video{
+  max-width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 2560px) {
  .container-top{
   top: 5vw;
